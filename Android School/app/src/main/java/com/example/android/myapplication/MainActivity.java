@@ -27,6 +27,15 @@ public class MainActivity extends AppCompatActivity {
          */
 
 
+        Student s1 = new Student("يوسف" , 14,12,R.drawable.boy1);
+        Student s2 = new Student( "سلمان" , 13, 10,R.drawable.boy2);
+        Student student1 = new Student("ماجد" ,15,11,R.drawable.boy);
+
+        ArrayList <Student> students = new ArrayList<>();
+        students.add(student1);
+
+
+
         StudentAdapter studentAdapter = new StudentAdapter(this,0,students);
 
 
